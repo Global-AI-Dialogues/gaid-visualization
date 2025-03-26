@@ -716,7 +716,7 @@ const GAIDVisualization = () => {
                 ? ` the percentage of participants who reported feeling "${variableLabels[selectedVariable].replace('Feeling ', '')}"` 
                 : ` the average ${variableLabels[selectedVariable]} (scale 1-5)`
               } 
-              across different demographic groups.
+                across different demographic groups.
             </p>
             <p>
               <strong>How to read it:</strong> Each circle represents a unique combination of {demographicLabels[xDemographic]} (x-axis) and {demographicLabels[yDemographic]} (y-axis).
@@ -726,6 +726,11 @@ const GAIDVisualization = () => {
             <p>
               <strong>Interact:</strong> Hover over any circle or bar for detailed information. Change the selections above to explore different aspects of the data.
               Use the color customization options to highlight specific ranges of values.
+            </p>
+            <p>
+            <strong>Disclaimer:</strong> This project was funded through Chiara Ullstein's Friedrich-Schiedel-Fellowship at the TUM Think Tank. 
+            The data collection was made possible by funding from the IEEE Computer Society. 
+            Visualization and graphic design created by Simon Jarvers with AI assistance from Claude 3.7 Sonnet.
             </p>
           </div>
         </div>
